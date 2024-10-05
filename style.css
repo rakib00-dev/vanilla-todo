@@ -1,0 +1,41 @@
+body {
+  font-size: 20px;
+}
+
+section {
+  padding: 40px;
+}
+
+#wrapper {
+  width: 60%;
+  inset: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+}
+
+li.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+button#button-addon2:active {
+  background: rgb(0, 174, 0);
+}
+
+button.btn-close {
+  position: relative;
+  background-color: rgb(202, 202, 202);
+}
+
+button.btn-close:hover::after {
+  display: block;
+  position: relative;
+  right: -44px;
+  content: 'click button or item body';
+  z-index: 12;
+  width: 87px;
+  line-height: 15px;
+  padding: 1px;
+  border: 1px solid black;
+}
